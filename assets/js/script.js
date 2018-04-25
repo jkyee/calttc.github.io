@@ -17,6 +17,7 @@ $(document).ready(function() {
   // });
 
   let num = 0;
+  //jQuery Function Number 1
   $(".picture").click(function() {
     //jQuery Function Number 2
     $("#pic-container").fadeIn();
