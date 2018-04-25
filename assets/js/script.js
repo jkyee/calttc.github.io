@@ -1,20 +1,4 @@
 $(document).ready(function() {
-  //jQuery Function Number 1
-  // $(".fb-button").click(function() {
-  //   window.location = "https://www.facebook.com/calttc"
-  // });
-  //
-  // $(".home-button").click(function() {
-  //   window.location = "index.html"
-  // });
-  //
-  // $(".coaches").click(function() {
-  //   window.location = "coach.html"
-  // });
-  //
-  // $(".photos").click(function() {
-  //   window.location = "gallery.html"
-  // });
 
   let num = 0;
   //jQuery Function Number 1

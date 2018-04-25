@@ -32,10 +32,6 @@ body{
   padding: 5px;
 }
 
-.home-button > a {
-  /*color: #D09512;*/
-}
-
 .home-button:hover {
   cursor: pointer;
   opacity: 0.7;
@@ -114,8 +110,6 @@ body{
   position: absolute;
   left: 10%;
   justify-content: center;
-  /*height: 150%;
-  width: 150%;*/
 }
 
 .rsf-link > a {
@@ -128,15 +122,11 @@ body{
   margin-right: 10%;
   padding: 25px;
   height: 1200px;
-  /*top: 30px;*/
   display: grid;
   grid-template-areas:
   "about join"
   "where training";
-  /*justify-content: center;*/
-  /*align-items: center;*/
   grid-column-gap: 10%;
-  /*grid-row-gap: 300px;*/
   background: #003262;
 }
 
@@ -170,8 +160,6 @@ body{
 
 .fb-button:hover {
   cursor: pointer;
-  /*height: 4.5%;
-  width: 4.5%;*/
 }
 
 #fam {
@@ -181,29 +169,6 @@ body{
   z-index: 5;
   left: 15%;
   color: #FDC954;
-}
-
-.about {
-  /*display: grid;*/
-  /*align-items: center;*/
-  /*grid-area: about;*/
-}
-
-.join {
-  /*display: grid;*/
-  align-items: center;
-  grid-area: join;
-}
-
-.where {
-  /*display: grid;*/
-  align-items: center;
-  grid-area: where;
-}
-.training {
-  /*display: grid;*/
-  align-items: center;
-  grid-area: training;
 }
 
 #coach-body {
@@ -218,54 +183,6 @@ body{
   grid-row-gap: 75px;
 }
 
-.erica {
-  grid-area: erica;
-}
-
-.teddy {
-  grid-area: teddy;
-}
-
-.michael {
-  grid-area: michael;
-}
-
-.lily {
-  grid-area: lily;
-}
-
-.jordan {
-  grid-area: jordan;
-}
-
-.prachi {
-  grid-area: prachi;
-}
-
-.aarsh {
-  grid-area: aarsh;
-}
-
-.angela {
-  grid-area: angela;
-}
-
-.ying {
-  grid-area: ying;
-}
-
-.aiden {
-  grid-area: aiden;
-}
-
-.shivi {
-  grid-area: shivi;
-}
-
-.emmy {
-  grid-area: emmy;
-}
-
 #gallery-body {
   display: grid;
   grid-template-areas:
@@ -277,54 +194,6 @@ body{
   margin-top: 50px;
   margin-left: 10%;
 }
-
-/*.bus {
-  grid-area: bus;
-}
-
-.rr {
-  grid-area: rr;
-}
-
-.shirts {
-  grid-area: shirts;
-}
-
-.team {
-  grid-area: team;
-}
-
-.gal1 {
-  grid-area: gal1;
-}
-
-.gal2 {
-  grid-area: gal2;
-}
-
-.gal3 {
-  grid-area: gal3;
-}
-
-.gal4 {
-  grid-area: gal4;
-}
-
-.gal5 {
-  grid-area: gal5;
-}
-
-.gal6 {
-  grid-area: gal6;
-}
-
-.gal7 {
-  grid-area: gal7;
-}
-
-.gal8 {
-  grid-area: gal8;
-}*/
 
 #pic-container {
   position: absolute;
@@ -378,7 +247,6 @@ body{
   border-radius: 20px;
   background-color: #5D6056;
   font-family: 'Asap', sans-serif;
-  /*display: none;*/
 }
 
 #left {
@@ -392,7 +260,6 @@ body{
   border-radius: 20px;
   background-color: #717568;
   font-family: 'Asap', sans-serif;
-  /*display: none;*/
 }
 
 #right {
@@ -406,5 +273,4 @@ body{
   border-radius: 20px;
   background-color: #717568;
   font-family: 'Asap', sans-serif;
-  /*display: none;*/
 }
