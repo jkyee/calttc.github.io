@@ -1,20 +1,20 @@
 $(document).ready(function() {
   //jQuery Function Number 1
-  $(".fb-button").click(function() {
-    window.location = "https://www.facebook.com/calttc"
-  });
-
-  $(".home-button").click(function() {
-    window.location = "index.html"
-  });
-
-  $(".coaches").click(function() {
-    window.location = "coach.html"
-  });
-
-  $(".photos").click(function() {
-    window.location = "gallery.html"
-  });
+  // $(".fb-button").click(function() {
+  //   window.location = "https://www.facebook.com/calttc"
+  // });
+  //
+  // $(".home-button").click(function() {
+  //   window.location = "index.html"
+  // });
+  //
+  // $(".coaches").click(function() {
+  //   window.location = "coach.html"
+  // });
+  //
+  // $(".photos").click(function() {
+  //   window.location = "gallery.html"
+  // });
 
   let num = 0;
   $(".picture").click(function() {
@@ -53,7 +53,7 @@ $(document).ready(function() {
   $(".picture").click(function() {
     //jQuery Function Number 6
     num = $(this).parent().attr('id');
-    console.log(num);
+    console.log(jQuery.type(num));
     if(num < 4 || num > 8) {
       $(".strip-sec").append("<img src=assets/img/gal" + num + ".jpg height=75% width=75%>");
     } else {

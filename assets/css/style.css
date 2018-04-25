@@ -32,6 +32,10 @@ body{
   padding: 5px;
 }
 
+.home-button > a {
+  /*color: #D09512;*/
+}
+
 .home-button:hover {
   cursor: pointer;
   opacity: 0.7;
