@@ -131,7 +131,7 @@ body {
 }
 
 #hero {
-  background-image: url("../img/hero.jpg");
+  background-image: url("../img/hero1.jpg");
   background-attachment: fixed;
   height: 90vh;
   position: relative;
@@ -147,7 +147,7 @@ body {
   display: flex;
   justify-content: center;
   position: relative;
-  top: 40%;
+  top: 55%;
   font-size: 96px;
   color: #FDC954;
   z-index: 5;
