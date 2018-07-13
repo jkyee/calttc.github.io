@@ -1,10 +1,12 @@
-body{
+body {
   background: linear-gradient(to bottom, #003262, #547595);
   margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: #F7F7FF;
 }
 
-#navbar{
+#navbar {
   position: fixed;
   top: 0;
   z-index: 100;
@@ -17,9 +19,71 @@ body{
   background-color: #FDB515;
 }
 
-#page-body {
+/*#nav-mobile {
   position: relative;
-  margin-top: 100px;
+  top: 50px;
+  left: 50px;
+  position: fixed;
+  background-color: #B9B6BA;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  z-index: 50;
+  opacity: .7;
+}
+
+.navline {
+  position: absolute;
+  position: fixed;
+  margin-left: 5px;
+  height: 10px;
+  width: 36px;
+  border-radius: 100px;
+}
+
+.first {
+  position: absolute;
+  position: fixed;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 7px;
+  background-color: #878588;
+  
+}
+
+.second {
+  position: absolute;
+  position: fixed;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 7px;
+  background-color: #878588;
+}
+
+.third {
+  position: absolute;
+  position: fixed;
+  margin-top: 35px;
+  margin-bottom: 10px;
+  margin-left: 7px;
+  background-color: #878588;
+}*/
+
+#page-body {
+  position: absolute;
+  /*top: 900px;*/
+  /*margin-top: 100px;*/
+  margin-left: 5%;
+  margin-right: 10%;
+  padding: 25px;
+  height: 1200px;
+  display: grid;
+  grid-template-areas:
+  /*"cont-title cont-title"*/
+  "about join"
+  "where training";
+  grid-column-gap: 10%;
+  background: #003262;
 }
 
 .home-button {
@@ -116,20 +180,6 @@ body{
   color: white;
 }
 
-#page-body {
-  position: relative;
-  margin-left: 5%;
-  margin-right: 10%;
-  padding: 25px;
-  height: 1200px;
-  display: grid;
-  grid-template-areas:
-  "about join"
-  "where training";
-  grid-column-gap: 10%;
-  background: #003262;
-}
-
 .links {
   display: flex;
   justify-content: flex-end;
@@ -137,23 +187,36 @@ body{
   margin-right: 30px;
 }
 
-#fb-msg {
+#contacts {
+  position: relative;
+  display: flex;
+  float: right;
+/*  background-color: red;
+*/  height: 200px;
+  width: 300px;
+
+}
+
+.fb-msg {
   position: absolute;
   right: 0;
+  top: 10px;
   height: 20px;
   width: 100px;
 }
 
-#email {
+.email {
   position: absolute;
+  top: 10px;
   right: 200px;
   height: 20px;
   width: 80px;
 }
 
 .fb-button {
-  position: relative;
-  right: 50px;
+  position: absolute;
+  bottom: 45px;
+  right: 80px;
   height: 20px;
   width: 20px;
 }
@@ -162,12 +225,16 @@ body{
   cursor: pointer;
 }
 
-#fam {
+.fam {
+  /*display: flex;*/
+  /*grid-area: cont-title;*/
   font-size: 42px;
   font-family: 'Asap', sans-serif;
-  position: absolute;
+  position: relative;
   z-index: 5;
-  left: 15%;
+  margin-left: 5%;
+  /*justify-content: center;
+  align-items: center;*/
   color: #FDC954;
 }
 
@@ -179,7 +246,7 @@ body{
   "aarsh angela ying"
   "aiden shivi emmy";
   margin-left: 15%;
-  margin-top: 50px;
+  margin-top: 250px;
   grid-row-gap: 75px;
 }
 
@@ -191,7 +258,7 @@ body{
   "gal3 gal4 gal5"
   "gal6 gal7 gal8";
   grid-row-gap: 100px;
-  margin-top: 50px;
+  margin-top: 250px;
   margin-left: 10%;
 }
 
@@ -274,3 +341,15 @@ body{
   background-color: #717568;
   font-family: 'Asap', sans-serif;
 }
+
+/*@media (min-width: 900px) {
+  #nav-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  #navbar {
+    display: none;
+  }
+}*/

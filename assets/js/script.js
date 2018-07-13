@@ -32,7 +32,7 @@ $(document).ready(function() {
     $("#exit").fadeOut();
     $("#left").fadeOut();
     $("#right").fadeOut();
-    $(".strip-sec").children().remove();
+    $(".strip-sec").children().fadeOut();
   });
 
   $(".picture").click(function() {
