@@ -225,7 +225,7 @@ body {
   cursor: pointer;
 }
 
-.fam {
+#fam {
   /*display: flex;*/
   /*grid-area: cont-title;*/
   font-size: 42px;
